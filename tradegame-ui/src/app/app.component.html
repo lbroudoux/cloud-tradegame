@@ -1,0 +1,7 @@
+<div>
+  <vertical-nav></vertical-nav>
+  <div class="container-fluid container-cards-pf container-pf-nav-pf-vertical">
+    <register-user *ngIf="!isAuthenticated()"></register-user>
+    <router-outlet *ngIf="isAuthenticated()"></router-outlet>
+  </div>
+</div>

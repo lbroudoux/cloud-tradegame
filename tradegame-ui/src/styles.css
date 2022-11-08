@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+.btn-primary {
+    background-color: #6200ee !important;
+    background-image: linear-gradient(to bottom, #9965f4 0, #6200ee 100%) !important;
+    border-color: #3700b3 !important;
+}
+
+.card-pf.card-pf-accented {
+    border-top-color: #6200ee !important;
+}
+
+body {
+    font-family: Roboto, "Open Sans", Helvetica !important;
+    font-size: 1.3em;
+}
+h1 {
+    font-weight: 400;
+}
