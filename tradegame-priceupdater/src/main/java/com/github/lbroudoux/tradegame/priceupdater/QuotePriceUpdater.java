@@ -67,7 +67,7 @@ public class QuotePriceUpdater {
    @ConfigProperty(name = "quarkus.google.cloud.project-id")
    String projectId;
 
-   @ConfigProperty(name = "quotegame-workingmemory.topic-name")
+   @ConfigProperty(name = "tradegame-workingmemory.topic-name")
    String topic;
 
    private KieSession ksession;
